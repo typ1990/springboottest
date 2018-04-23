@@ -46,6 +46,16 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 			<version>RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.6.Final</version>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>org.msgpack</groupId>-->
+			<!--<artifactId>msgpack</artifactId>-->
+			<!--<version>0.6.12</version>-->
+		<!--</dependency>-->
 
 	</dependencies>
 
