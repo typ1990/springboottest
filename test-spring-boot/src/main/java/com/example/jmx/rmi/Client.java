@@ -21,6 +21,8 @@ public class Client {
         HelloMBean hello = JMX.newMBeanProxy(mbsc, mbeanName, HelloMBean.class);
         hello.setName("World!");
         hello.sayHello();
+        System.out.println(hello.getName());
+
     }
 
 }

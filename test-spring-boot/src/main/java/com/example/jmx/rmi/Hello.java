@@ -2,7 +2,7 @@ package com.example.jmx.rmi;
 
 import java.io.Serializable;
 
-public class Hello implements HelloMBean, Serializable {
+public class Hello implements HelloMBean {
 
     private String name;
 
